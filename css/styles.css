@@ -1,0 +1,35 @@
+.body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: Aquamarine;
+}
+.container-fluid {
+  width: 100%;
+  font-family: sans-serif;
+}
+.jumbotron {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  float:left;
+  text-align: center;
+  background-color: PaleVioletRed;
+}
+.form-group {
+  align-items: center;
+  border: 20px;
+  padding: 20px;
+  margin-left: 25px;
+  background-color: Aquamarine;
+}
+.btn {
+  align-content: center;
+  align-items: center;
+  margin: 62px;
+  background-color: SlateGray;
+}
+.row {
+  background-color: Aquamarine;
+}
