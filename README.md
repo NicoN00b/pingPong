@@ -13,6 +13,7 @@ _{When the user enters a number into the empty field and clicks on the Submit bu
 -{It can count to provided number
     Example Input: 2
     Example Output: [1, 2]}
+-{It can reject letters and special characters}
 -{It can accept a new input repeatedly}
 -{It can return 'ping' for all numbers divisible   by 3}
 -{It can return 'pong' for all numbers divisible by 5}
