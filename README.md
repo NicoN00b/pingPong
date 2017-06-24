@@ -1,37 +1,36 @@
 # _{pingPong}_
 
-#### _{Brief description of application}, {6.23.17}_
+#### _{pingPong JS exercise/ Independent Code Review}, {6.23.17}_
 
 #### By _**{Nicholas Raethke}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{When the user enters a number into the empty field and clicks on the Submit button, it will return a list of all numbers between one and the entered number with three exceptions: any number divisible by 3 will return 'ping'; any number divisible by 5 will return 'pong'; and any number divisible by 15 will return 'pingpong'}_
 
-## Setup/Installation Requirements
+## Specs
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+-{It can count to provided number
+    Example Input: 2
+    Example Output: [1, 2]}
+-{It can accept a new input repeatedly}
+-{It can return 'ping' for all numbers divisible   by 3}
+-{It can return 'pong' for all numbers divisible by 5}
+-{It can return 'pingpong' for all numbers divisible by 15}
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_{None at the moment}_
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_{contact: nicholas.raethke@gmail.com.}_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_{HTML, CSS, Bootstrap.css, jquery-3.2.1, JavaScript, assistance from JSHint.com}_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
 
-Copyright (c) 2015 **_{List of contributors or company name}_**
+Creative Commons / Open Source ... Use at your discretion.**
