@@ -1,4 +1,8 @@
-var pingPong = function(userNum) {
+function Calculator(skinName) {
+  this.skin = skinName;
+}
+
+Calculator.prototype.pingPong = function(userNum) {
 
   var submitResult = [];
 
@@ -16,15 +20,4 @@ var pingPong = function(userNum) {
   return submitResult;
 };
 
-$(document).ready(function() {
-  $('form#pingpong').submit(function(event) {
-    $('ul').empty();
-    var userNum = parseInt($('input#userNum').val());
-    var resultPing = pingPong(userNum);
-
-    for (var i = 0; i < resultPing.length; i++ ) {
-      $('.resultPing').append('<li>' + resultPing[i] + '</li>')
-    };
-  event.preventDefault();
-  });
-});
+exports.calculatorModule = Calculator;
